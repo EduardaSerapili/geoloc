@@ -1,12 +1,30 @@
 #mapid{ 
-    height: 180px; 
-    
+    height: 500px; 
+    width: 500px;
 }
-.nav-item{
-    border: 3px solid black;
-    border-radius: 10%;
-    width: 320px;
-    margin: auto;
-    padding: 2px;
-    font-weight: bold;
+.button_slide {
+    color: #162944;;
+    width: 500px;
+    border: 2px solid #43512a;
+    border-radius: 10px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #43512a;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    margin-top: 1%;
+  }
+.slide_right:hover {
+    box-shadow: inset 500px 0 0 0 #43512a;
+    color: white;
+  }
+#mapid{
+    border: 2px solid #43512a;
+    border-radius: 10px;
 }
+
